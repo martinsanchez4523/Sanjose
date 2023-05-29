@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgregarEstudiantes</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Dancing+Script&family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="agregarprofesores.css" as="style">
+    <link rel="stylesheet" href="agregarprofesores.css">
+</head>
+<body>
+    <header class="relleno">
+        <div class="logo">
+            <img src="Component 4.png" alt="iniciopag" class="imagen-inicio">
+        </div>
+        <h1 class="tag">San Jose Home School</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="/INICIO/inicio.html">Inicio</a>
+            <a href="/ESTUDIANTES/estudiante.html">Estudiantes</a>
+            <a href="/ADMINISTRATIVO/administrativo.html">Administrativo</a>
+            <a href="/PROFESORES/profesor.html">Profesores</a>
+            <a href="/LOGIN/index.html">Cerrar Sesión</a>
+        </nav>
+    </div>
+        <form id="ActualizarDatos">
+            <h2 class="label1">Datos del profesor</h2>
+                <form class="input-box">
+                    <span class="nombre">Nombre</span>
+                    <span class="asignaturas">Asignatura</span>
+                    <span class="grados">Grados</span>
+                    <div class="tres-primeros">
+                        <input type="text" id="username" placeholder="Nombre" required>
+                        <input type="text" id="asignaturas" placeholder="Asignatura" required>
+                        <input type="text" id="grados" placeholder="Grados" required>
+                    </div>
+                    <div class="tres-segundos">
+                        <div>
+                            <span class="email">Correo</span>
+                            <span class="tel">Celular</span>
+                        </div>
+                        <input type="email" id="email" placeholder="Correo" required>
+                        <input type="tel" id="tel" placeholder="Celular" required>
+                    </div>
+                </form>
+        <footer>
+            <button id="GuardarCambios">Guardar Cambios</button>
+        </footer>
+    </form>
+    <script src="agregarprofesores.js"></script>
+</body>
+</html>

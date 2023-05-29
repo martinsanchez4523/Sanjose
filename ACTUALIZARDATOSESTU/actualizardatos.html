@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiante</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Dancing+Script&family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="actualizardatos.css" as="style">
+    <link rel="stylesheet" href="actualizardatos.css">
+</head>
+<body>
+    <header class="relleno">
+        <div class="logo">
+            <img src="Component 4.png" alt="iniciopag" class="imagen-inicio">
+        </div>
+        <h1 class="tag">San Jose Home School</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="/INICIO/inicio.html">Inicio</a>
+            <a href="/ESTUDIANTES/estudiante.html">Estudiantes</a>
+            <a href="/ADMINISTRATIVO/administrativo.html">Administrativo</a>
+            <a href="/PROFESORES/profesor.html">Profesores</a>
+            <a href="/LOGIN/index.html">Cerrar Sesión</a>
+        </nav>
+    </div>
+        <form id="ActualizarDatos">
+            <h2>Actualizar Datos</h2>
+            <h2 class="label1">Datos del usuario</h2>
+                <form class="input-box">
+                    <span class="nombre">Nombre</span>
+                    <span class="apellidos">Apellidos</span>
+                    <span class="tipodocumento">Tipo de documento</span>
+                    <div class="tres-primeros">
+                        <input type="text" id="username" placeholder="Nombre" required>
+                        <input type="text" id="surnames" placeholder="Apellidos" required>
+                        <input type="text" id="document" placeholder="Tipo de documento" required>
+                    </div>
+                    <div class="tres-segundos">
+                        <div>
+                            <span class="numerodocumento">N° de documento</span>
+                            <span class="lugarexpedición">Lugar de expedición</span>
+                            <span class="tel">Télefono</span>
+                        </div>
+                        <input type="number" id="numberDocument" placeholder="N° de documento" required>
+                        <input type="text" id="exhibition" placeholder="Lugar de expedición" required>
+                        <input type="tel" id="phone" placeholder="Télefono" required>
+                    </div>
+                    <div class="dos-ultimos">
+                        <div>
+                            <span class="email">Email</span>
+                            <span class="resi">Residencia</span>
+                        </div>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="text" id="home" placeholder="Residencia" required>
+                    </div>
+                </form>
+        <footer>
+            <button id="GuardarCambios">Guardar Cambios</button>
+        </footer>
+    </form>
+    <script src="actualizardatos.js"></script>
+</body>
+</html>
