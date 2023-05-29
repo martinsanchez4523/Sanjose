@@ -1,0 +1,219 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+.relleno { 
+     background-color: var(--secundario); 
+     padding: 0.2rem; 
+     } 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-left: 2em;
+    margin-top: 3px;
+}
+
+.logo .imagen-inicio {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.titulo {
+    margin-top: 5rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 3.3;
+}
+.tag {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--blanco);
+    color: var(--oscuro)
+}
+
+#GuardarCambios {
+  margin-top: 2em;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #7CACDE;
+  box-shadow: 3px 2px 4px #BEE2F9;
+  padding: 8px 27px;
+  border-radius: 10px;
+  border: 0px solid #3866A3;
+  background: #369BBF;
+  background: linear-gradient(to top, #369BBF, #19D9FF);
+  margin-left: 30px;
+}
+
+#GuardarCambios:hover {
+    color: #FFFFFF !important;
+    background: #2212FF;
+    background: linear-gradient(to top, #2212FF, #3EE2EE);
+}
+
+h2 {
+    font-weight: 1;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.tres-primeros #username {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.tres-segundos #numberDocument {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.dos-ultimos #email {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+input {
+    background-color: #f0f9ff;
+}
+
+.nombre {
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.numerodocumento {
+    margin-top: 100px;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.email {
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.apellidos {
+    font-size: 25px;
+    margin-left: 187px;
+    font-weight: 700;
+}
+
+.lugarexpedición {
+    font-size: 25px;
+    margin-left: 74px;
+    font-weight: 700;
+}
+
+.resi {
+    font-size: 25px;
+    margin-left: 212px;
+    font-weight: 700;
+}
+
+.tipodocumento {
+    font-size: 25px;
+    margin-left: 163px;
+    font-weight: 700;
+}
+
+.tel {
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.tres-primeros #surnames {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.tres-segundos #exhibition {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.dos-ultimos #home {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.tres-primeros #document {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.tres-segundos #phone {
+    margin-left: 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 240px;
+}
+
+.tres-segundos div {
+    margin-top: 20px;
+}
+
+.dos-ultimos div {
+    margin-top: 20px;
+}
+  

@@ -1,0 +1,121 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+    --verde: #10B416;
+    --derecha: #D9D9D9;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+.sesion {
+    margin-top: -3px;
+    color: var(--blanco);
+    font-size: 23px;
+}
+
+.logo {
+    margin-top: 1em;
+    width: 180px;
+}
+
+.user {
+    margin-top: 2em;
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 20px;
+}
+
+.pass {
+    margin-top: 2em;
+    display: block;
+    color: var(--blanco);
+    font-size: 20px;
+}
+
+.fondo-boton {
+    background: #10B416;
+    background: linear-gradient(to top, #10B416, #2ECF9F);
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fondo-boton:hover {
+    color: var(--blanco);
+    background: #00CF83;
+}
+
+#loginButton {
+    margin-top: 2em;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--blanco);
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #8D24DE;
+    box-shadow: 1px 1px 1px #10B416;
+    padding: 10px 40px;
+    border-radius: 0px;
+    border: 0px dotted #3866A3;
+    background: #10B416;
+    background: linear-gradient(to top, #10B416, #2ECF9F);
+}
+
+#loginButton:hover {
+    color: var(--blanco);
+    background: #00CF83;
+}
+
+.recupe {
+    color: var(--blanco);
+    display: block;
+    margin-top: 2em;
+}
+
+.contenedor-login {
+    display: inline-block;
+    flex-direction: column;
+    padding: 1rem;
+    width: 430px;
+    height: 637px;
+    background-color: var(--primario); 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2em;
+}
+
+.contenedor-login form {
+    margin-top: 3em;
+}
+
+.contenedor-imagen {
+    backdrop-filter: blur(10px);
+    background-color: rgba(217, 217, 217, 0.44);
+    display: inline-block;
+    height: 600px;
+    width: 894px;
+    text-align: center;
+}
+
+.contenedor-imagen img {
+    width: 750px;
+    height: 500px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}

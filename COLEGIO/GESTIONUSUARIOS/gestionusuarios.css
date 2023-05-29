@@ -1,0 +1,158 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+
+
+.relleno { 
+     background-color: var(--secundario); 
+     padding: 0.2rem; 
+     } 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 3px;
+}
+
+.logo .imagen-inicio {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.titulo {
+    margin-top: 5rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 3.3;
+}
+.tag {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--blanco);
+    color: var(--oscuro)
+}
+
+.bienvenidos {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bienvenidos .titulo {
+    margin: 12px;
+    padding: 0.5rem;
+    color: var(--blanco);
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: #054b7E;
+    width: 50rem;
+    text-align: center;
+}
+
+.logos img {
+    width: 250px;
+}
+.logos div {
+    display: inline-block;
+}
+
+#btnEstudiantes {
+    font-family: arial;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 0px 0px 0px #7CACDE;
+    box-shadow: 2px 2px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 9px;
+    border: 2px solid #757575;
+    background: #594E4E;
+    background: linear-gradient(to top, #594E4E, #9E9E9E);
+}
+
+#btnEstudiantes:hover {
+    color: #FFFFFF !important;
+    background: #30302F;
+    background: linear-gradient(to top, #30302F, #999999);
+}
+
+#btnProfesores {
+    font-family: arial;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 0px 0px 0px #7CACDE;
+    box-shadow: 2px 2px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 9px;
+    border: 2px solid #757575;
+    background: #594E4E;
+    background: linear-gradient(to top, #594E4E, #9E9E9E);
+}
+
+#btnProfesores:hover {
+    color: #FFFFFF !important;
+    background: #30302F;
+    background: linear-gradient(to top, #30302F, #999999);
+}
+
+.boton-1 {
+    position: static;
+    margin-right: 340px;
+    margin-top: -10px;
+}
+
+.boton-2 {
+    margin-left: 340px;
+    margin-top: -40px;
+}
+
+.logo-1 {
+    margin-right: 80px;
+}
+  

@@ -1,0 +1,125 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+
+
+.relleno { 
+     background-color: var(--secundario); 
+     padding: 0.2rem; 
+     } 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 3px;
+}
+
+.logo .imagen-inicio {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.titulo {
+    margin-top: 5rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 3.3;
+}
+.tag {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--blanco);
+    color: var(--oscuro)
+}
+
+h2 {
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+label {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.label1 {
+    margin-top: -15px;
+}
+
+#ActualizarDatos {
+    margin-top: 2em;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--blanco);
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #8D24DE;
+    box-shadow: 1px 1px 1px #10B416;
+    padding: 10px 40px;
+    border-radius: 0px;
+    border: 0px dotted #3866A3;
+    background: #10B416;
+    background: linear-gradient(to top, #10B416, #2ECF9F);
+}
+
+#ActualizarDatos:hover {
+    color: var(--blanco);
+    background: #00CF83;
+}
+
+.usuario{
+    text-align: center;    
+}
+
+.user {
+    height: 13em;
+    margin-top: 20px;
+}

@@ -1,0 +1,106 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+
+
+.relleno { 
+     background-color: var(--secundario); 
+     padding: 0.2rem; 
+     } 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-left: 2em;
+    margin-top: 3px;
+}
+
+.logo .imagen-inicio {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.titulo {
+    margin-top: 5rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 3.3;
+}
+.tag {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--blanco);
+    color: var(--oscuro)
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: separate;
+  }
+  
+th, td {
+    padding: 18px;
+    border: 1px solid var(--secundario);
+    width: 100px;
+  }
+  
+th {
+    color: var(--blanco);
+    background-color: var(--primario);
+  }
+  
+td {
+    text-align: center;
+  }
+  
+td[id^="lunes"], td[id^="martes"], td[id^="miercoles"], td[id^="jueves"], td[id^="viernes"] {
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+td[id^="lunes"]:hover, td[id^="martes"]:hover, td[id^="miercoles"]:hover, td[id^="jueves"]:hover, td[id^="viernes"]:hover {
+    background-color: #f9f9f9;
+  }

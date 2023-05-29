@@ -1,0 +1,133 @@
+:root {
+    --primario: #3b6d90;
+    --secundario: #054b7E;
+    --blanco: #ffffff;
+    --negro: #212121;
+    --gris: #D9D9D9;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #f0f9ff;
+}
+
+
+
+.relleno { 
+     background-color: var(--secundario); 
+     padding: 0.2rem; 
+     } 
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-left: 2em;
+    margin-top: 3px;
+}
+
+.logo .imagen-inicio {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.tag {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--primario);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--blanco);
+    color: var(--oscuro)
+}
+
+.bienvenidos {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bienvenidos .titulo {
+    margin: 12px;
+    padding: 0.5rem;
+    color: var(--blanco);
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: #054b7E;
+    width: 65rem;
+    text-align: center;
+}
+
+.contenedor-izquierda {
+    padding: 0.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.contenedor-izquierda p {
+    padding: 0.5rem;
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #054b7E;
+    width: 55rem;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.contenedor-derecha {
+    padding: .5rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.contenedor-derecha p {
+    padding: 0.5rem;
+    color: var(--blanco);
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: #054b7E;
+    width: 55rem;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.contenedores {
+    margin-left: 5.5em;
+}
